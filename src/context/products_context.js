@@ -30,6 +30,15 @@ export const ProductsProvider = ({ children }) => {
     dispatch({ type: SIDEBAR_CLOSE });
   };
 
+  const fetchProducts = async (url) => {
+    const respone = await axios.get(url);
+    console.log(respone);
+  };
+
+  useEffect(() => {
+    fetchProducts(url);
+  }, []);
+
   return (
     <ProductsContext.Provider value={{ ...state, openSidebar, closeSidebar }}>
       {children}
