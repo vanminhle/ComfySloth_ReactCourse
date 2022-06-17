@@ -12,11 +12,16 @@ const Contact = () => {
             error architecto atque modi suscipit quasi vero sint? Eveniet,
             provident suscipit!
           </p>
-          <form className="contact-form">
+          <form
+            className="contact-form"
+            action="https://formspree.io/f/mpzbnvyk"
+            method="POST"
+          >
             <input
               type="email"
               className="form-input"
               placeholder="enter email"
+              name="email"
             />
             <button type="submit" className="submit-btn">
               Subscribe
