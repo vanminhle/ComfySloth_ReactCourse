@@ -3,9 +3,9 @@ import styled from "styled-components";
 
 const ProductImages = ({ images = [{ url: "" }] }) => {
   //before loading images, the images is undefined because it will fetch the images from internet, this will cause problem if we didn't make  images = [{ url: "" }]
-  console.log(images);
+  //console.log(images);
   const [main, setMain] = useState(images[0]);
-  console.log(main);
+  //console.log(main);
 
   return (
     <Wrapper>

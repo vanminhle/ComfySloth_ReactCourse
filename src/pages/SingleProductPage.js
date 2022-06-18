@@ -45,7 +45,7 @@ const SingleProductPage = () => {
     return <Error />;
   }
 
-  console.log(product);
+  //console.log(product);
 
   const {
     name,
