@@ -27,8 +27,8 @@ const CartContent = () => {
         >
           clear shopping cart
         </button>
-        <CartTotals />
       </div>
+      <CartTotals />
     </Wrapper>
   );
 };
