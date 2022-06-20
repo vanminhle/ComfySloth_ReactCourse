@@ -13,7 +13,6 @@ import {
   PrivateRoute,
   AuthWrapper,
 } from "./pages";
-import SingleProductPage from "./pages/SingleProductPage";
 
 function App() {
   return (
